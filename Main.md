@@ -22,6 +22,6 @@ $$  x_{ij}\ \triangleq\ i產業在這個年度投入了多少產品(換算成金
 
 那有了這個矩陣之後，我們可以用它來做甚麼呢? 其實在了解了這個矩陣內每個元素的意義之後，就能夠發現如果把這個矩陣乘上一個行向量$\widetilde{x}$來代表各產業增加的產出，那得到的新的行向量$\widetilde{y}$ 就是各產業為了應付那些產出，而實際產出的產品。
 
-$$\left( \begin{array}{ccc} x_{11} & x_{12} & \cdots \\
-x_{21} & x_{22} & \ldots \\
-\vdots & \vdots & \ddots \end{array} \right)$$
+$$\left( \begin{array}{cccc} x_{1 1} & x_{1 2} & \cdots & x_{1 26} \\
+x_{2 1} & x_{2 2} & \cdots & x_{2 26}\\
+\vdots & \vdots & \ddots & \vdots \end{array} \right)$$
