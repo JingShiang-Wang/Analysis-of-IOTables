@@ -26,4 +26,7 @@ $$\left( \begin{array}{cccc} a_{1, 1} & a_{1, 2} & \cdots & a_{1, 26} \\
     a_{2, 1} & a_{2, 2} & \cdots & a_{2, 26}\\
     \vdots & \vdots & \ddots & \vdots \\
     a_{26, 1} & a_{26, 2} & \cdots & a_{26, 26} \end{array} \right)
-  \left( \begin{array}{c} x_1 \\ x_2 \\ \vdots \\ x_{26}\end{array} \right)$$
+  \left( \begin{array}{c} x_1 \\
+    x_2 \\
+    \vdots \\
+    x_{26}\end{array} \right)$$
