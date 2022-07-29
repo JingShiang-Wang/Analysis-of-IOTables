@@ -30,7 +30,7 @@ $$\left( \begin{array}{cccc} a_{1, 1} & a_{1, 2} & \cdots & a_{1, 26} \\
     x_2 \\
     \vdots \\
     x_{26}\end{array} \right) \ = \ 
-  ( \begin{array}{c} y_1 \\
+  \left( \begin{array}{c} y_1 \\
     y_2 \\
     \vdots \\
-    y_{26}\end{array} ) $$
+    y_{26}\end{array} \right) $$
