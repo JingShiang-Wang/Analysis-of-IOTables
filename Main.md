@@ -34,3 +34,7 @@ $$\left( \begin{array}{cccc} a_{1, 1} & a_{1, 2} & \cdots & a_{1, 26} \\
     y_2 \\
     \vdots \\
     y_{26}\end{array} \right) $$
+    
+有了這些之後，我們當然就會想要找找看有沒有使產出最大化的配置，於是我們最後就找到了Cauchy–Schwarz inequality。
+
+
