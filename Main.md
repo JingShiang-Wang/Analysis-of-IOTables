@@ -41,7 +41,7 @@ $$\left( \begin{array}{cccc} a_{1, 1} & a_{1, 2} & \cdots & a_{1, 26} \\
 
 ## 用Cauchy–Schwarz inequality 來找最佳解
 
-首先說明一下，這邊說的"最佳解"指的是讓 $sum(\widetilde{y})$ 這個值最小化，而根據前面的式子我們可以知道
+首先說明一下，這邊說的"最佳解"指的是在給定的 $sum(\widetilde{y})$ 之下，讓 $sum(\widetilde{x})$ 這個值最小化，而根據前面的式子我們可以知道
 
 $$ sum(\widetilde{y}) \ =\ \begin{array}{c} (a_{1, 1} \ + \ a_{1, 2} \ + \ ...\ ) \cdot x_1 \ + \ \\
                             (a_{2, 1} \ + \ a_{2, 2} \ + \ ...\ ) \cdot x_2 \ + \ \\
@@ -52,4 +52,4 @@ $$ sum(\widetilde{y}) \ =\ \begin{array}{c} (a_{1, 1} \ + \ a_{1, 2} \ + \ ...\ 
 
 $$\widetilde{c} \ =\ (c_1 \ ,\ c_2 \ ,...) \quad ,\ c_j \ = \displaystyle\sum_{i=1}^{26} a_{i, j} \quad ,\ j\ =\ 1,\ 2,\ ...,\ 26$$ 
 
-那我們就知道我們所想要的 $sum(\widetilde{y})$ 其實就等於 $\widetilde{c} \cdot \ \widetilde{x}$ ，這時就可以套上我們的Cauchy–Schwarz inequality了，
+那我們就知道 $sum(\widetilde{y})$ 其實就等於 $\widetilde{c} \cdot \ \widetilde{x}$ ，這時就可以套上我們的Cauchy–Schwarz inequality了，
