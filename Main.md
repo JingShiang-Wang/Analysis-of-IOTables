@@ -54,4 +54,4 @@ $$\widetilde{c} \ =\ (c_1 \ ,\ c_2 \ ,...) \quad ,\ c_j \ = \displaystyle\sum_{i
 
 那我們就知道 $sum(\widetilde{y})$ 其實就等於 $\widetilde{c} \cdot \ \widetilde{x}$ ，這時就可以套上我們的Cauchy–Schwarz inequality了。
 
-$$\widetilde{c}\cdot\widetilde{x}\ \leq\ |\widetilde|\cdot|\widetilde{x}|$$
+$$\widetilde{c}\cdot\widetilde{x}\ \leq\ |\widetilde{c}|\cdot|\widetilde{x}|$$
