@@ -51,3 +51,5 @@ $$ sum(\widetilde{y}) \ =\ \begin{array}{c} (a_{1, 1} \ + \ a_{1, 2} \ + \ ...\ 
 如果我們令一個向量 $\widetilde{c}$ 使得
 
 $$\widetilde{c} \ =\ (c_1 \ ,\ c_2 \ ,...) \quad ,\ c_j \ = \displaystyle\sum_{i=1}^{26} a_{i, j} \quad ,\ j\ =\ 1,\ 2,\ ...,\ 26$$ 
+
+那我們就知道我們所想要的 $sum(\widetilde{y})$ 其實就等於 $\widetilde{c} \cdot \ \widetilde{x}$ ，這時就可以套上我們的Cauchy–Schwarz inequality了，
