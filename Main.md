@@ -50,4 +50,4 @@ $$ sum(\widetilde{y}) \ =\ \begin{array}{c} (a_{1, 1} \ + \ a_{1, 2} \ + \ ...\ 
 
 如果我們令一個向量 $\widetilde{c}$ 使得
 
-$$\widetilde{c} \ =\ (c_1 \ ,\ c_2 \ ,...) \ ,\ c_j \ = \displaystyle\sum_{i=1}^{26} a_{i, j} \ ,\ j\ =\ 1,\ 2,\ ...,\ 26$$ 
+$$\widetilde{c} \ =\ (c_1 \ ,\ c_2 \ ,...) \quad ,\ c_j \ = \displaystyle\sum_{i=1}^{26} a_{i, j} \quad ,\ j\ =\ 1,\ 2,\ ...,\ 26$$ 
