@@ -41,6 +41,6 @@ $$\left( \begin{array}{cccc} a_{1, 1} & a_{1, 2} & \cdots & a_{1, 26} \\
 
 ## 用Cauchy–Schwarz inequality 來找最佳解
 
-
+首先說明一下，這邊說的"最佳解"指的是讓 $sum(\widetilde{y}) \ $ 這個值最小化。
 
 
