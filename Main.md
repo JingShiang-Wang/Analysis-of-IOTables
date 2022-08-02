@@ -55,3 +55,5 @@ $$\widetilde{c} \ =\ (c_1 \ ,\ c_2 \ ,...) \quad ,\ c_j \ = \displaystyle\sum_{i
 那我們就知道 $sum(\widetilde{y})$ 其實就等於 $\widetilde{c} \cdot \ \widetilde{x}$ ，這時就可以套上我們的Cauchy–Schwarz inequality了。
 
 $$sum(\widetilde{y})\ =\ \widetilde{c}\cdot\widetilde{x}\ \leq\ |\widetilde{c}|\cdot|\widetilde{x}|$$
+
+那因為我們希望的是 $|\widetilde{x}|$ 能夠小一點，所以根據Cauchy–Schwarz inequality，當 $\widetilde{c}$ 跟 $\widetilde{x}$ 平行的時候， $|\widetilde{x}|$ 會有最小值 $\frac{sum(\widetilde{y})}{|\widetilde{c}|}$ 。
