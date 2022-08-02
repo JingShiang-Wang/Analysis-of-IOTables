@@ -43,4 +43,9 @@ $$\left( \begin{array}{cccc} a_{1, 1} & a_{1, 2} & \cdots & a_{1, 26} \\
 
 首先說明一下，這邊說的"最佳解"指的是讓 $sum(\widetilde{y})$ 這個值最小化，而根據前面的式子我們可以知道
 
+$$ sum(\widetilde{y}) \ =\ \begin{array}{c} (a_{1, 1} \ + \ a_{1, 2} \ + \ ...\ ) \cdot x_1 \ + \ \\
+                            (a_{2, 1} \ + \ a_{2, 2} \ + \ ...\ ) \cdot x_2 \ + \ \\
+                            \vdots \\
+                            (a_{26, 1} \ + \ a_{26, 2} \ + \ ...\ ) \cdot x_26 \end{array}$$
+
 
