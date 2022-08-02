@@ -58,4 +58,4 @@ $$sum(\widetilde{y})\ =\ \widetilde{c}\cdot\widetilde{x}\ \leq\ |\widetilde{c}|\
 
 那因為我們希望的是 $|\widetilde{x}|$ 能夠小一點，所以根據Cauchy–Schwarz inequality，當 $\widetilde{c}$ 跟 $\widetilde{x}$ 平行的時候， $|\widetilde{x}|$ 會有最小值 $\displaystyle \frac{sum(\widetilde{y})}{|\widetilde{c}|}$ ，也就是說我們想要求的 $\widetilde{x}$ 就會是
 
-$$wanted\ \widetilde{x}\ =\ \displaystyle \frac{sum(\widetilde{y})}{|\widetilde{c}|^2}\cdot \widetilde{c}$$
+$$wanted\quad \widetilde{x}\ =\ \displaystyle \frac{sum(\widetilde{y})}{|\widetilde{c}|^2}\cdot \widetilde{c}$$
