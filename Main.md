@@ -1,6 +1,6 @@
 # Introduction
 
-## 什麼是產業關聯表(IOTable)?
+## 什麼是產業關聯表(IO Table)?
 
 我們可以從[行政院主計總處-產業關聯表](https://www.stat.gov.tw/ct.asp?xItem=28535&ctNode=671)得到像這樣的表格，其中每一個數字的定義如下:
 
@@ -20,7 +20,9 @@ $$  x_{ij}\ \triangleq\ i產業在這個年度投入了多少產品(換算成金
 
 ![螢幕擷取畫面](https://user-images.githubusercontent.com/108454425/181772325-58f4ffa3-9cdf-4b82-a9f1-829282ec1856.png)
 
-那有了這個矩陣之後，我們可以用它來做甚麼呢? 其實在了解了這個矩陣內每個元素的意義之後，就能夠發現如果把這個矩陣乘上一個行向量 $\widetilde{x}$ 來代表各產業增加的產出，那得到的新的行向量 $\widetilde{y}$ 就是各產業為了應付那些產出，而實際產出的產品。
+# 研究方法
+
+有了這個產業關聯程度矩陣之後，我們可以用它來做甚麼呢? 其實在了解了這個矩陣內每個元素的意義之後，就能夠發現如果把這個矩陣乘上一個行向量 $\widetilde{x}$ 來代表各產業增加的產出，那得到的新的行向量 $\widetilde{y}$ 就是各產業為了應付那些產出，而實際產出的產品。
 
 $$\left( \begin{array}{cccc} a_{1, 1} & a_{1, 2} & \cdots & a_{1, 26} \\
     a_{2, 1} & a_{2, 2} & \cdots & a_{2, 26}\\
@@ -36,5 +38,9 @@ $$\left( \begin{array}{cccc} a_{1, 1} & a_{1, 2} & \cdots & a_{1, 26} \\
     y_{26}\end{array} \right) $$
     
 有了這些之後，我們當然就會想要找找看有沒有使產出最大化的配置，於是我們最後就找到了Cauchy–Schwarz inequality。
+
+## 用Cauchy–Schwarz inequality 來找最佳解
+
+
 
 
