@@ -48,4 +48,4 @@ $$ sum(\widetilde{y}) \ =\ \begin{array}{c} (a_{1, 1} \ + \ a_{1, 2} \ + \ ...\ 
                             \vdots \\
                             (a_{26, 1} \ + \ a_{26, 2} \ + \ ...\ ) \cdot x_{26} \end{array}$$
 
-如果我們令一個向量 $\widetilde{c} \ =\ (c_1,\ c_2,...) \qquad ,\ c_j\ =\ \sum{a_{i, j}}^{26}_{i=1}$ 
+如果我們令一個向量 $\widetilde{c} \ =\ (c_1,\ c_2,...) \qquad ,\ c_j \ = \displaystyle\sum_{i=1}^{26} a_{i, j} \qquad ,\ j\ =\ 1,\ 2,\ ...,\ 26$ 
