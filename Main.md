@@ -59,3 +59,10 @@ $$sum(\widetilde{y})\ =\ \widetilde{c}\cdot\widetilde{x}\ \leq\ |\widetilde{c}|\
 那因為我們希望的是 $|\widetilde{x}|$ 能夠小一點，所以根據Cauchy–Schwarz inequality，當 $\widetilde{c}$ 跟 $\widetilde{x}$ 平行的時候， $|\widetilde{x}|$ 會有最小值 $\displaystyle \frac{sum(\widetilde{y})}{|\widetilde{c}|}$ ，也就是說我們想要求的 $\widetilde{x}$ 就會是
 
 $$wanted\quad \widetilde{x}\ =\ \displaystyle \frac{sum(\widetilde{y})}{|\widetilde{c}|^2}\cdot \widetilde{c}$$
+
+## 感應度以及影響度
+
+除了剛剛的最佳解以外，我們還可以根據產業關聯程度矩陣來定義兩個新的詞，分別是"感應度"以及"影響度"
+
+$$ i產業的感應度\  \triangleq\ \frac{\sum^n_{j=1}x_{ij}}{\frac{1}{n}\sum^n_{i=1}\sum^n_{j=1}x_{ij}}$$ 
+$$ i產業的影響度\  \triangleq\ \frac{\sum^n_{i=1}x_{ij}}{\frac{1}{n}\sum^n_{i=1}\sum^n_{j=1}x_{ij}}$$
