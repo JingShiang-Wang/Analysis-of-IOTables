@@ -65,3 +65,10 @@ $$wanted\quad \widetilde{x}\ =\ \displaystyle \frac{sum(\widetilde{y})}{|\wideti
 除了剛剛的最佳解以外，我們還可以根據產業關聯程度矩陣來定義兩個新的詞，分別是"感應度"以及"影響度"
 
 $$ i產業的感應度\  \triangleq\ \frac{\displaystyle\sum^n_{j=1} a_{ij}}{\displaystyle\frac{1}{n}\displaystyle\sum^n_{i=1}\displaystyle\sum^n_{j=1}a_{ij}} \quad , \quad  i產業的影響度\  \triangleq\ \frac{\displaystyle\sum^n_{i=1} a_{ij}}{\displaystyle\frac{1}{n}\displaystyle\sum^n_{i=1}\displaystyle\sum^n_{j=1}a_{ij}}$$
+
+感應度是指跟其他產業來比，所有產業需要他的產品的程度；而影響度則是跟其他產業來比，他需要所有產業的產品的程度
+
+也就是說，感應度高的產業很容易因為別的產業發展變好，他自己的發展也跟著變好；影響度高的產業如果發展變好，就會容易帶動其他產業的發展。這邊放一個105年的資料畫的圖
+
+![example 3](https://user-images.githubusercontent.com/108454425/182641107-439f5af1-9f6c-4457-bc87-83a7396c7a40.png)
+
