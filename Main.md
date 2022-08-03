@@ -64,4 +64,4 @@ $$wanted\quad \widetilde{x}\ =\ \displaystyle \frac{sum(\widetilde{y})}{|\wideti
 
 除了剛剛的最佳解以外，我們還可以根據產業關聯程度矩陣來定義兩個新的詞，分別是"感應度"以及"影響度"
 
-$$ i產業的感應度\  \triangleq\ \frac{\displaystyle\sum^n_{j=1} a_{ij}}{\displaystyle\frac{1}{n}\displaystyle\sum^n_{i=1}\displaystyle\sum^n_{j=1}a_{ij}} \quad and \quad  i產業的影響度\  \triangleq\ \frac{\displaystyle\sum^n_{i=1} a_{ij}}{\displaystyle\frac{1}{n}\displaystyle\sum^n_{i=1}\displaystyle\sum^n_{j=1}a_{ij}}$$
+$$ i產業的感應度\  \triangleq\ \frac{\displaystyle\sum^n_{j=1} a_{ij}}{\displaystyle\frac{1}{n}\displaystyle\sum^n_{i=1}\displaystyle\sum^n_{j=1}a_{ij}} \quad , \quad  i產業的影響度\  \triangleq\ \frac{\displaystyle\sum^n_{i=1} a_{ij}}{\displaystyle\frac{1}{n}\displaystyle\sum^n_{i=1}\displaystyle\sum^n_{j=1}a_{ij}}$$
