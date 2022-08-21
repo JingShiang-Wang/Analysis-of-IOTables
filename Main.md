@@ -73,3 +73,5 @@ $$ i產業的感應度\  \triangleq\ \frac{\displaystyle\sum^n_{j=1} a_{ij}}{\di
 ![example 3](https://user-images.githubusercontent.com/108454425/182641107-439f5af1-9f6c-4457-bc87-83a7396c7a40.png)
 
 接著，因為我們每一個產業有8個年份的資料，所以我們使用了MDS的方法來降維、畫圖，最後整理出了一些東西
+
+TEST
