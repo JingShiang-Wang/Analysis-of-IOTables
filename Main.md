@@ -100,5 +100,6 @@ $$ i產業的感應度\  \triangleq\ \frac{\displaystyle\sum^n_{j=1} a_{ij}}{\di
 外部調整(點移)：政策(獨佔、區域劃分、環保、專利、關稅、配額、補貼)
 
 # Reference
-[行政院主計總處-產業關聯表](https://www.stat.gov.tw/ct.asp?xItem=28535&ctNode=671)
+[行政院主計總處-產業關聯統計](https://www.stat.gov.tw/np.asp?ctNode=669)
+
 [台經院產經資料庫](https://tie.tier.org.tw/db/industry_definition/index.aspx)
