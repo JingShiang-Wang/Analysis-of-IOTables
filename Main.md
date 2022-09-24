@@ -1,6 +1,10 @@
+# Abstract
+
+在這份報告中，我們針對產業關聯程度表用了兩種分析方法，這些資料每5年一份總共8份，第一種方法是用Cauchy–Schwarz inequality 來找最佳解；第二種方法我們先定義了感應度以及影響度，再把它們依照年份、產業標在圖上並進行分類，最後還有將這些資料用MDS的方法進行另外的分類，最後根據這些分類作出一些結論。
+
 # Introduction
 
-## 什麼是產業關聯表(IO Table)?
+## 什麼是產業關聯表(Input-Output Table)?
 
 我們可以從[行政院主計總處-產業關聯表](https://www.stat.gov.tw/ct.asp?xItem=28535&ctNode=671)得到像這樣的表格，其中每一個數字的定義如下:
 
@@ -39,7 +43,7 @@ $$\left( \begin{array}{cccc} a_{1, 1} & a_{1, 2} & \cdots & a_{1, 26} \\
     
 有了這些之後，我們當然就會想要找找看有沒有使產出最大化的配置，於是我們最後就找到了Cauchy–Schwarz inequality。
 
-## 用Cauchy–Schwarz inequality 來找最佳解
+## 1.用Cauchy–Schwarz inequality 來找最佳解
 
 首先說明一下，這邊說的"最佳解"指的是在給定的 $sum(\widetilde{y})$ 之下，讓 $\widetilde{x}$ 裡面的值盡可能的小，而根據前面的式子我們可以知道
 
@@ -60,7 +64,9 @@ $$sum(\widetilde{y})\ =\ \widetilde{c}\cdot\widetilde{x}\ \leq\ |\widetilde{c}|\
 
 $$wanted\quad \widetilde{x}\ =\ \displaystyle \frac{sum(\widetilde{y})}{|\widetilde{c}|^2}\cdot \widetilde{c}$$
 
-## 感應度以及影響度
+## 小結
+
+## 2.感應度以及影響度
 
 除了剛剛的最佳解以外，我們還可以根據產業關聯程度矩陣來定義兩個新的詞，分別是"感應度"以及"影響度"
 
@@ -76,7 +82,7 @@ $$ i產業的感應度\  \triangleq\ \frac{\displaystyle\sum^n_{j=1} a_{ij}}{\di
 
 ![沒有標準化](https://user-images.githubusercontent.com/108454425/186679042-a3a656ee-9f2e-4d33-8c17-61429ec04892.png)
 
-## 結論
+## 小結
 
 於8年的26產業關聯效果圖中，所處象限、MDS相關係數所交集的產業如下：
 
